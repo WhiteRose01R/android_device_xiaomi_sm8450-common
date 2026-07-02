@@ -109,7 +109,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=1 \
     ro.camera.enableCamera1MaxZsl=1 \
-    ro.hardware.camera=xiaomi
+    ro.hardware.camera=xiaomi \
+    persist.vendor.camera.privapp.list=com.android.camera
 
 # Cutout
 PRODUCT_PACKAGES += \
